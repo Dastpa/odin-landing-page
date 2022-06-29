@@ -8,6 +8,11 @@
     font-family: roboto-light; 
 }
 
+@font-face {  
+    src: url(fonts/roboto/Roboto-LightItalic.ttf);
+    font-family: roboto-light-italic; 
+}
+
 * {
     font-family: roboto;
 }
@@ -115,4 +120,56 @@ body {
 
 .hdrimage {
     border: lime 0px dashed;
+}
+
+.panpage {
+    padding: 16px 0 60px 0;
+}
+
+.pantitle {
+    text-align: center;
+    color: #1f2937;
+    padding-bottom: 24px;
+}
+
+.panpage .container {
+    display: flex;
+    justify-content: center;
+}
+
+.panel {
+    max-width: 130px;
+}
+
+.panel .text {
+    color: #646464;
+    font-size: 12px;
+}
+
+.quotepage {
+    background-color: rgb(233, 233, 233);
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.quotepage .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    color: #1f2937;
+}
+
+.quote {
+    font-family: 'roboto-light-italic';
+    font-size: 24px;
+}
+
+.credit {
+    font-weight: bold;
+    color: #1f2937;
+    margin-left: auto;
+    font-size: 16px;
 }
