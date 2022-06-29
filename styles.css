@@ -1,0 +1,118 @@
+@font-face {  
+    src: url(fonts/roboto/Roboto-Regular.ttf);
+    font-family: roboto; 
+}
+
+@font-face {  
+    src: url(fonts/roboto/Roboto-Light.ttf);
+    font-family: roboto-light; 
+}
+
+* {
+    font-family: roboto;
+}
+
+
+a {
+    text-decoration: none;
+    color: #bebebe;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-color: #1f2937;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    border: red 0px dashed;
+    padding: 20px 0px 150px 0px;
+}
+
+.header .container {
+    border: orange 0px dashed;
+    width: 700px;
+    max-width: 83vw;
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+}
+
+.bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    border: yellow 0px dashed;
+}
+
+.hdrlinks {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 16px;
+    gap: 16px;
+    font-size: 12px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    font-size: 16px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.content {
+    border: yellow 0px dashed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 200px;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+.imgtext {
+    display: flex;
+    height: 180px;
+    flex-direction: column;
+    border: lime 0px dashed;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    gap: 12px;
+}
+
+.imgtext p {
+    color: #bebebe;
+    margin: 0;
+    border: skyblue 0px dashed;
+    font-family: 'roboto-light';
+    font-size: 14px;
+}
+
+.imgtext h1 {
+    padding: 0;
+    margin: 0;
+    border: skyblue 0px dashed;
+}
+
+.imgtext button {
+    margin-right: auto;
+    border: skyblue 0px dashed;
+    border-radius: 6px;
+    background-color: #3882f6;
+    color: white;
+    padding: 4px 20px;
+}
+
+.hdrimage {
+    border: lime 0px dashed;
+}
