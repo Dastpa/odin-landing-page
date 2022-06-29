@@ -13,6 +13,11 @@
     font-family: roboto-light-italic; 
 }
 
+@font-face {  
+    src: url(fonts/roboto/Roboto-LightItalic.ttf);
+    font-family: roboto-light-italic; 
+}
+
 * {
     font-family: roboto;
 }
@@ -54,7 +59,7 @@ body {
     align-items: center;
     justify-content: space-between;
     margin: 0;
-    border: yellow 0px dashed;
+    border-bottom: white 1px solid;
 }
 
 .hdrlinks {
@@ -172,4 +177,51 @@ body {
     color: #1f2937;
     margin-left: auto;
     font-size: 16px;
+}
+
+.callpage {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.callpage .container {
+    display: flex;
+    background-color: #3882f6;
+    padding: 30px;
+    border-radius: 6px;
+    gap: 40px;
+    align-items: flex-end;
+}
+
+.callpage .container .text .title{
+    color: white;
+}
+
+.callpage .container .text .info{
+    color: white;
+    font-family: 'roboto-light';
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.callpage .btn {
+    border-radius: 5px;
+    border-color: white;
+    color: white;
+    background-color: transparent;
+    width: 80px;
+    height: 25px;
+    border-style: solid;
+    border-width: 1.5px;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1f2937;
+    color: white;
+    font-size: 13px;
+    padding-top: 24px;
+    padding-bottom: 30px;
 }
